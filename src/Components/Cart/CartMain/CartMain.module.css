@@ -1,0 +1,8 @@
+.cartMain {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  padding: 2%;
+  margin: 4%;
+  height: 50vh;
+  overflow-y: auto;
+}

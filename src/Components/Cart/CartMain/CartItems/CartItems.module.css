@@ -1,0 +1,69 @@
+.cartItemsDiv {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+.cartItemsDiv img {
+  border-radius: 15px;
+  width: 4vw;
+  height: 8vh;
+}
+
+.cartItemsDiv div {
+  width: 65%;
+  margin: 0 10px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cartItemsDiv p {
+  height: 5vh;
+  font-weight: 500;
+  margin: 0;
+  font-size: 0.9em;
+}
+.cartItemsDiv div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  flex-direction: row;
+}
+
+.cartItemsDiv div > div > p {
+  color: rgb(240, 72, 0);
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.cartItemsDiv div ul {
+  width: 40%;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+.cartItemsDiv ul > li > button {
+  background-color: rgb(240, 72, 0);
+  border: 1px solid rgb(240, 72, 0);
+  border-radius: 5px;
+  color: white;
+}
+.cartItemsDiv ul > li > p {
+  list-style: none;
+  margin: 0 5px;
+  display: flex;
+  font-size: 1em;
+}
+.cartItemsDiv ul > li > button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}

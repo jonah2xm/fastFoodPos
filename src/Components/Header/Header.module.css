@@ -1,0 +1,82 @@
+.mainLogo {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  margin: 0 0 30% 0;
+}
+
+.header {
+  text-align: center;
+  width: 7%;
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header ul + li {
+  margin: 0;
+}
+li {
+  border-top-right-radius: -5px;
+}
+li .curve_up {
+  border-left: 3px solid transparent;
+  border-bottom-right-radius: 200px;
+
+  background-color: white;
+  height: 2vh;
+  margin: 0% 0 0 0;
+  width: 100%;
+}
+li .curve_down {
+  border-left: 3px solid transparent;
+  border-top-right-radius: 100px;
+
+  background-color: white;
+  height: 3vh;
+  margin: 0 0 0% 0;
+  width: 100%;
+}
+.menu {
+  border: 3px solid transparent;
+
+  width: 25%;
+  height: 25%;
+}
+
+.liMenu:hover {
+  cursor: pointer;
+}
+.foodMenu {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgb(245, 245, 245);
+  transition: 300ms ease;
+}
+
+.history {
+  background-color: rgb(245, 245, 245);
+  transition: 300ms ease;
+}
+
+.states {
+  background-color: rgb(245, 245, 245);
+  transition: 300ms ease;
+}
+
+.settings {
+  background-color: rgb(245, 245, 245);
+  transition: 300ms ease;
+}
+
+.logout {
+  background-color: rgb(245, 245, 245);
+  transition: 300ms ease;
+}

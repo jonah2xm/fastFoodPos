@@ -1,0 +1,58 @@
+.foodCategories {
+  padding: 0.5% 5%;
+  margin: 1%;
+  display: flex;
+  list-style: none;
+}
+.foodCategories li {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: 20px 1%;
+  width: 7em;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.foodCategories li img {
+  width: 2vw;
+  height: 3vh;
+}
+
+.foodCategories li:hover {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+  cursor: pointer;
+}
+.foodCategories li :focus {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}
+.foodCategories > .all {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}
+.foodCategories > .taco {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}
+.foodCategories > .pizza {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}
+.foodCategories > .sandwich {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}
+.foodCategories > .juice {
+  background-color: rgb(240, 72, 0);
+  border-color: rgb(240, 72, 0);
+  color: white;
+}

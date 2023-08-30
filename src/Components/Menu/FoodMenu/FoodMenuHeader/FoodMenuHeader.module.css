@@ -1,0 +1,39 @@
+.menuHeader {
+  text-align: left;
+  padding: 0 5%;
+  margin:  2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuHeader h1 {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.menuHeader div + div {
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  background-color: white;
+  vertical-align: middle;
+}
+.menuHeader img {
+  padding: 3%;
+  align-items: center;
+  border: 5px;
+  margin: auto;
+  height: 3.3vh;
+  width: 1.7vw;
+}
+.menuHeader input {
+  outline: none !important;
+  font-size: 0.9rem;
+  height: 2.5rem;
+  width: 20vw;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.menuHeader div + div:focus-within {
+  border: 2px solid rgb(240, 72, 0);
+}

@@ -1,0 +1,61 @@
+.foodItems {
+  transition: 100ms ease;
+  width: 15.15vw;
+  text-align: left;
+  padding: 0.84vmax;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 3.135%;
+  background-color: white;
+  border-radius: 10px;
+}
+.foodItems:hover {
+  cursor: pointer;
+}
+.foodItems > div {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.foodItems h3 {
+  width: 100%;
+  height: 9.5vh;
+  margin: 1em 0 0 0;
+}
+
+.imageDiv{
+text-align: center;
+width:100%;
+}
+.foodItems img {
+  text-align: center;
+  display: inline;
+  border-radius: 10px;
+  margin: 0;
+  width:90% ;
+  height: 210px;
+}
+.foodItems p {
+  color: gray;
+  height: 12vh;
+  display: block;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.foodItems > div > div {
+  display: flex;
+}
+
+.foodItems h2 {
+  color: rgb(240, 72, 0);
+  margin: 0;
+  font-weight: 500;
+}
+.foodItems h4 {
+  margin: auto;
+  color: gray;
+  margin: 0;
+}

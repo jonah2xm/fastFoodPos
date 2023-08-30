@@ -1,0 +1,51 @@
+.cartFooter {
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  margin: 4%;
+}
+.cartFooter div {
+  display: flex;
+  justify-content: space-between;
+}
+.cartFooter h2 {
+  font-weight: 600;
+}
+.cartFooter > div > input {
+  width: 60%;
+  margin: 1em 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+.cartFooter button {
+  background-color: rgb(240, 72, 0);
+  border: 1px solid rgb(240, 72, 0);
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 3%;
+}
+.cartFooter button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.cartFooter > div > input:focus-visible {
+  outline: none;
+  border: 2px solid rgb(240, 72, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
